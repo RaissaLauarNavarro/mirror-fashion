@@ -1,0 +1,48 @@
+<table border="1px">
+            <thead>
+                <tr>
+                    <th>Tênis</th>
+                    <th>Sapatos</th>
+                    <th>Calças</th>
+                    <th>Acessórios</th>
+                    <th>Bolsas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img style="height: 180px; width: auto;" src="../assets\tenis1.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\sapato1.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\calça1.png"></td>
+                    <td><img style="height: 190px; width: auto;" src="../assets\acessorio1.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\bolsa1.png"></td>
+                </tr>
+                <tr>
+                    <td><img style="height: 180px; width: auto;" src="../assets\tenis2.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\sapato2.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\calça2.jpg"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\acessorio2.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\bolsa2.png"></td>
+                </tr>
+                <tr>
+                    <td><img style="height: 180px; width: auto;" src="../assets\tenis3.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\sapato3.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\calça3.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\acessorio3.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\bolsa3.png"></td>
+                </tr>
+                <tr>
+                    <td><img style="height: 180px; width: auto;" src="../assets\tenis4.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\sapato4.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\calça4.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\acessorio4.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\bolsa4.png"></td>
+                </tr>
+                <tr>
+                    <td><img style="height: 180px; width: auto;" src="../assets\tenis5.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\sapato5.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\calça5.png"></td>
+                    <td><img style="height: 180px; width: auto;" src="../assets\acessorio5.png"></td>
+                    <td><img style="height: 200px; width: auto;" src="../assets\bolsa5.png"></td>
+                </tr>
+            </tbody>
+        </table>
