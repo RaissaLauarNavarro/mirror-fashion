@@ -1,0 +1,36 @@
+#principal {
+  position: absolute;
+  /* transform: translate(-50%); */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  width: auto;
+  height: auto;
+}
+
+#logo {
+  position: absolute;
+  transform: translate(50%);
+  right: 50%;
+  top: 10px;
+}
+
+#sacola {
+  position: absolute;
+  transform: translate(50%);
+  right: 10%;
+  top: 10px;
+}
+
+li {
+  display: inline;
+  margin-left: 10px;
+}
+
+ul {
+  position: absolute;
+  left: 70%;
+  top: 8%;
+}
