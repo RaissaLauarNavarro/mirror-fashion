@@ -1,13 +1,12 @@
-#principal {
-  position: absolute;
-  /* transform: translate(-50%); */
-  margin-left: 10%;
-  margin-right: 10%;
+.conteiner {
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: black;
 }
 
 header {
-  width: auto;
-  height: auto;
+  position: relative;
 }
 
 #logo {
