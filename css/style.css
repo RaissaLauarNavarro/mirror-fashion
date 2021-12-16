@@ -15,6 +15,8 @@ body {
 
 header {
   position: relative;
+  width: auto;
+  height: 10%;
 }
 
 #logo {
@@ -22,6 +24,8 @@ header {
   transform: translate(50%);
   right: 85%;
   top: 0%;
+  width: auto;
+  height: auto;
 }
 
 #sacola {
@@ -38,15 +42,55 @@ header {
   top: 5px;
 }
 
-li {
+.menuPrincipal li {
   display: inline;
-  margin-left: 10px;
+  margin-left: 5px;
   text-decoration: none;
 }
 
-ul {
+.menuPrincipal a {
+  text-decoration: none;
+  color: black;
+}
+
+.menuPrincipal {
   transform: translate(50%);
   position: absolute;
-  left: 48%;
+  left: 28%;
   top: 50px;
+}
+
+nav {
+  position: absolute;
+  transform: translate(50%);
+  right: 88%;
+  display: block;
+  margin-top: 2%;
+}
+
+.busca {
+  background-color: lightgrey;
+  left: 5%;
+  padding: 5%;
+  width: 115%;
+  margin-left: 5%;
+}
+
+.departamentos {
+  /* left: 5%; */
+  padding: 5%;
+  width: 115%;
+  text-decoration: none;
+  height: auto;
+  margin-left: 5%;
+}
+
+.departamentos a {
+  padding: 5%;
+  width: fit-content;
+  /* left: 5%; */
+}
+
+#departamento {
+  background-color: lightgrey;
 }
