@@ -68,29 +68,41 @@ nav {
   margin-top: 2%;
 }
 
+.lateral {
+  width: 125%;
+  margin-left: 5%;
+}
+
 .busca {
   background-color: lightgrey;
   left: 5%;
   padding: 5%;
-  width: 115%;
-  margin-left: 5%;
 }
+
+.lupa {
+  display: inline;
+}
+
+/* .departamentos {
+  left: 5%;
+  height: 300px;
+  text-decoration: none;
+  margin-left: 5%;
+} */
 
 .departamentos {
-  /* left: 5%; */
   padding: 5%;
-  width: 115%;
-  text-decoration: none;
-  height: auto;
-  margin-left: 5%;
-}
-
-.departamentos a {
-  padding: 5%;
-  width: fit-content;
-  /* left: 5%; */
-}
-
-#departamento {
+  width: 90%;
   background-color: lightgrey;
+}
+
+.departamentos li {
+  padding-bottom: 2%;
+  background-color: beige;
+  list-style-type: none;
+}
+
+.branco {
+  background-color: white;
+  width: 100px;
 }
