@@ -4,6 +4,20 @@ body {
   margin: 0px;
 }
 
+header {
+  position: relative;
+  width: auto;
+  height: 10%;
+}
+
+nav {
+  position: absolute;
+  transform: translate(50%);
+  right: 88%;
+  display: block;
+  margin-top: 2%;
+}
+
 .conteiner {
   width: 940px;
   height: 100%;
@@ -11,12 +25,6 @@ body {
   position: absolute;
   transform: translate(50%);
   background-color: white;
-}
-
-header {
-  position: relative;
-  width: auto;
-  height: 10%;
 }
 
 #logo {
@@ -58,14 +66,6 @@ header {
   position: absolute;
   left: 28%;
   top: 50px;
-}
-
-nav {
-  position: absolute;
-  transform: translate(50%);
-  right: 88%;
-  display: block;
-  margin-top: 2%;
 }
 
 .lateral {
