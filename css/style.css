@@ -1,5 +1,5 @@
 body {
-  background-color: blanchedalmond;
+  background-color: white;
   padding: 0px;
   margin: 0px;
 }
@@ -18,13 +18,18 @@ nav {
   margin-top: 2%;
 }
 
+a {
+  font-family: "Lato", sans-serif;
+}
+
 .conteiner {
-  width: 940px;
+  width: 50%;
   height: 100%;
   margin: 0 auto;
   position: absolute;
   transform: translate(50%);
   background-color: white;
+  display: block;
 }
 
 #logo {
@@ -48,6 +53,7 @@ nav {
   transform: translate(50%);
   left: 30%;
   top: 5px;
+  font-family: "Lato", sans-serif;
 }
 
 .menuPrincipal li {
@@ -64,7 +70,7 @@ nav {
 .menuPrincipal {
   transform: translate(50%);
   position: absolute;
-  left: 28%;
+  left: 25%;
   top: 50px;
 }
 
@@ -77,32 +83,46 @@ nav {
   background-color: lightgrey;
   left: 5%;
   padding: 5%;
+  font-family: "Lato", sans-serif;
 }
 
 .lupa {
   display: inline;
 }
 
-/* .departamentos {
-  left: 5%;
-  height: 300px;
-  text-decoration: none;
-  margin-left: 5%;
-} */
-
 .departamentos {
   padding: 5%;
-  width: 90%;
   background-color: lightgrey;
 }
 
 .departamentos li {
   padding-bottom: 2%;
-  background-color: beige;
+  padding-left: 2%;
+  background-color: white;
   list-style-type: none;
+  height: 15px;
+  border-bottom-color: lightgray;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  font-family: "Lato", sans-serif;
 }
 
 .branco {
   background-color: white;
   width: 100px;
+}
+
+#principal {
+  position: absolute;
+  transform: translate(50%);
+  right: 37%;
+  top: 15%;
+  width: 650px;
+  height: 400px;
+}
+
+.maisVendidos {
+  width: 20%;
+  height: 20%;
+  margin-top: 50%;
 }

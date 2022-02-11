@@ -1,5 +1,5 @@
 body {
-  background-color: blanchedalmond;
+  background-color: white;
   padding: 0px;
   margin: 0px;
 }
@@ -8,11 +8,11 @@ header {
   position: relative;
   width: auto;
   height: 10%;
+  margin-bottom: 110px;
 }
 
 .conteiner {
   width: 940px;
-  height: 100%;
   margin: 0 auto;
   position: absolute;
   transform: translate(50%);
@@ -30,12 +30,13 @@ header {
 
 #titulo {
   margin-top: 40px;
-  background-color: darkgray;
+  background-color: rgb(185, 184, 184);
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 10px;
   display: block;
   font-size: 30px;
+  font-family: "Lato", sans-serif;
 }
 
 .texto {
@@ -43,6 +44,7 @@ header {
   margin-right: 50px;
   display: block;
   /* text-align: center; */
+  font-family: "Lato", sans-serif;
 }
 
 #centro {
@@ -50,6 +52,39 @@ header {
   margin-right: 40px;
   background-color: rgb(231, 229, 229);
   border: 20px;
-  border-color: rgb(207, 203, 203);
+  border-color: rgb(184, 168, 168);
   border-radius: 5px;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+}
+
+#historia {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  border-bottom-color: rgb(185, 184, 184);
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+
+.textoHistoria {
+  width: 50%;
+  margin-left: 50px;
+  font-family: "Lato", sans-serif;
+  padding-right: 10%;
+}
+
+#direita {
+  float: right;
+  text-indent: 0;
+  background-color: rgb(231, 229, 229);
+  border: 20px;
+  margin-right: 40px;
+  border-radius: 5px;
+  text-align: center;
 }

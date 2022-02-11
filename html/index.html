@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=devide-width">
         <title>Mirror Fashion</title>
         <link rel="stylesheet" href="../css/style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        </style>
     </head>
 
     <body>
         <div class="conteiner">
-             <header> <!-- cabeçalho -->
+            <header> <!-- cabeçalho -->
                     <h1>
                         <img id="logo" src="../assets/logo.png" alt="logo da loja Mirror Fashion">
                     </h1>
@@ -17,51 +21,92 @@
                     <img id="sacola" src="../assets\sacola.png" alt="imagem da sacola de compras">
                     
                     <ul class="menuPrincipal">
-                        <li><a href="#">Sua Conta</a></li>
-                        <li><a href="#">Lista de desejos</a></li>
-                        <li><a href="#">Cartão fidelidade</a></li>
-                        <li><a href="../html/sobre.html">Sobre</a></li>
-                        <li><a href="#">Ajuda</a></li>
+                        <li><b><a href="#">Sua Conta</a></b></li>
+                        <li><b><a href="#">Lista de desejos</a></b></li>
+                        <li><b><a href="#">Cartão fidelidade</a></b></li>
+                        <li><b><a href="../html/sobre.html">Sobre</a></b></li>
+                        <li><b><a href="#">Ajuda</a></b></li>
                     </ul>
             </header> 
-            <nav> <!-- menu de navegação -->
-                <div class="lateral">
-                    <div class="busca">
-                        <b><a>BUSCA</a></b>
-                        <div class="lupa">
-                            <input type="text">
-                            <img style="width: 8%;" src="../assets/lupa.png">
+            <div class="box">
+                <nav> <!-- menu de navegação -->
+                    <div class="lateral">
+                        <div class="busca">
+                            <b><a>BUSCA</a></b>
+                            <div class="lupa">
+                                <input type="text">
+                                <img style="width: 8%;" src="../assets/lupa.png">
+                            </div>
+                            
                         </div>
-                        
+                        <ul class="departamentos">
+                            <li><b><a>DEPARTAMENTOS</a></b></li>
+                            <li><b><a class="branco">BLUSAS E CAMISAS</a></b></li>
+                            <li><b><a class="branco">CALÇAS</a></b></li>
+                            <li><b><a class="branco">SAIAS</a></b></li>
+                            <li><b><a class="branco">VESTIDOS</a></b></li>
+                            <li><b><a class="branco">SAPATOS</a></b></li>
+                            <li><b><a class="branco">BOLSAS E CARTEIRAS</a></b></li>
+                            <li><b><a class="branco">ACESSÓRIOS</a></b></li>
+                        </ul>
                     </div>
-                    <ul class="departamentos">
-                        <li><b><a>DEPARTAMENTOS</a></b></li>
-                        <li><b><a class="branco">BLUSAS E CAMISAS</a></b></li>
-                        <li><b><a class="branco">CALÇAS</a></b></li>
-                        <li><b><a class="branco">SAIAS</a></b></li>
-                        <li><b><a class="branco">VESTIDOS</a></b></li>
-                        <li><b><a class="branco">SAPATOS</a></b></li>
-                        <li><b><a class="branco">BOLSAS E CARTEIRAS</a></b></li>
-                        <li><b><a class="branco">ACESSÓRIOS</a></b></li>
-                    </ul>
-                </div>
-            </nav> 
-            <div>  <!-- imagens -->
-
-                  
+                </nav> 
+                <img id="principal" src="../assets/principal.png">
             </div>
-            <div>
-                <div>  <!-- novidades-->
-                      
-                </div>
-                <div>  <!--mais vendidos -->
-                     
-                </div>
+            
+                <table class="maisVendidos" border="1px">
+                    <thead>
+                        <tr>
+                            <th>Mais vendidos</th>
+                            <!-- <th>Sapatos</th>
+                            <th>Calças</th>
+                            <th>Acessórios</th>
+                            <th>Bolsas</th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img style="height: 180px; width: auto;" src="../assets\tenis1.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\sapato1.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\calça1.png"></td>
+                            <td><img style="height: 190px; width: auto;" src="../assets\acessorio1.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\bolsa1.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img style="height: 180px; width: auto;" src="../assets\tenis2.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\sapato2.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\calça2.jpg"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\acessorio2.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\bolsa2.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img style="height: 180px; width: auto;" src="../assets\tenis3.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\sapato3.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\calça3.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\acessorio3.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\bolsa3.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img style="height: 180px; width: auto;" src="../assets\tenis4.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\sapato4.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\calça4.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\acessorio4.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\bolsa4.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img style="height: 180px; width: auto;" src="../assets\tenis5.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\sapato5.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\calça5.png"></td>
+                            <td><img style="height: 180px; width: auto;" src="../assets\acessorio5.png"></td>
+                            <td><img style="height: 200px; width: auto;" src="../assets\bolsa5.png"></td>
+                        </tr>
+                    </tbody>
+                </table> 
             </div>
         </div>
-        <footer> <!-- rodapé -->
-            
-        </footer>
+    <footer> <!-- rodapé -->
+        
+    </footer>
     </body>
     
 </html>
