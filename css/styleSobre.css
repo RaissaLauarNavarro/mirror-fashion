@@ -57,7 +57,8 @@ header {
   text-align: center;
 }
 
-h5 {
+h5,
+li {
   font-family: "Lato", sans-serif;
 }
 
@@ -83,8 +84,8 @@ h5 {
   float: right;
   text-indent: 0;
   background-color: rgb(231, 229, 229);
-  border: 20px;
-  margin-right: 40px;
   border-radius: 5px;
   text-align: center;
+  padding: 2%;
+  height: 280px;
 }
