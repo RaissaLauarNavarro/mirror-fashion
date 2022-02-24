@@ -58,6 +58,7 @@ header {
 }
 
 h5,
+h4,
 li {
   font-family: "Lato", sans-serif;
 }
@@ -88,4 +89,10 @@ li {
   text-align: center;
   padding: 2%;
   height: 280px;
+}
+
+.rodape {
+  width: 100px;
+  margin-top: 50px;
+  padding-right: 30px;
 }

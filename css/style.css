@@ -130,6 +130,8 @@ footer {
 .maisVendidos {
   height: 20%;
   margin-top: 50%;
+  border-collapse: collapse;
+  margin-left: 30px;
 }
 
 #final {
